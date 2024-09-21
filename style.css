@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Quicksand:wght@300..700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    min-height: 100vh;
+    /* border: 2px solid red; */
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("images/back.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip:border-box;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;align-items: center;*/
+} 
+
+.navbar{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+    font-family: "Manrope",sans-serif;
+    margin-left: 12rem;
+}
+.right{
+    margin-right: 12rem;
+}
+.right > input{
+    width: 18rem;
+    height: 18px;
+    font-family: "Manrope", sans-serif;
+    padding: 10px;
+    padding-left: 32px;
+    color: gray;
+    background-color: rgba(0, 0, 0, 0.363);
+    background-image: url("images/search.png");
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 8px 9px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    border-radius: 10px;
+}
+.right > button{
+    height:38px ;
+    width: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: rgb(211, 211, 211);
+    font-family: "Manrope";
+    cursor: pointer;
+
+}
+
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+.data-container{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 400px;
+    margin-left: 35%;
+    /* margin-top: 5%; */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.034);
+    background-blend-mode: screen;
+    font-family: "Manrope", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .data-container > div{
+    border: 2px solid red;
+    width: fit-content;
+} */
+
